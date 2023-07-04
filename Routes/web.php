@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('admin')->group(function() {
+Route::prefix('panel')->group(function() {
     Route::resource('socials', 'SocialsController');
 });
